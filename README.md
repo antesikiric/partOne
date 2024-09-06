@@ -39,7 +39,7 @@ condition is time complexity of O(1), constant time. But with good hash function
 collisions in average case program even do not enter into while loop or program iterate through while
 loop just few times. In case of no collisions complexity of insert and findKey are O(1).
 
-To execute code run: docker-compose build and then docker compose up.
+To execute code run: docker-compose build and then docker-compose up.
 
 
 
