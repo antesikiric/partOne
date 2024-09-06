@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  cpp-curl-app:
+    build: .
+    container_name: cpp-curl-container
+    volumes:
+      - .:/app
+    command: ./program
